@@ -24,11 +24,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 findViewById(R.id.relative_layout);
         Button myTableLayout = (Button)
                 findViewById(R.id.table_layout);
+        Button myFrameLayout = (Button)
+                findViewById(R.id.frame_layout);
 
         myLinearLayoutHorizontal.setOnClickListener(this);
         myLinearLayoutVertical.setOnClickListener(this);
         myRelativeLayout.setOnClickListener(this);
         myTableLayout.setOnClickListener(this);
+        myFrameLayout.setOnClickListener(this);
     }
     @Override
     public void onClick(View view) {
@@ -54,8 +57,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.table_layout:
                 Log.d("MainActivity", "Vertical clicked");
-                Intent intent4 = new Intent(this, TableLayout.class);
+                Intent intent4 = new Intent(this, tableLayout.class);
                 startActivity(intent4);
+                break;
+
+            case R.id.frame_layout:
+                Log.d("MainActivity", "Vertical clicked");
+                Intent intent5 = new Intent(this, Frame_Layout.class);
+                startActivity(intent5);
                 break;
 
             default:
