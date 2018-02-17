@@ -22,7 +22,9 @@
         <activity android:name=".linearLayoutVertical" />
         <activity android:name=".Relative_Layout" />
         <activity android:name=".tableLayout" />
-        <activity android:name=".Frame_Layout"></activity>
+        <activity android:name=".Frame_Layout" />
+        <activity android:name=".List_View_Activity" />
+        <activity android:name=".Grid_View"></activity>
     </application>
 
 </manifest>
