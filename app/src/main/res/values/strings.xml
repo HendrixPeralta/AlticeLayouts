@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Altice Layouts</string>
+    <string name="linear_layout_horizontal">Linear Layout horizontal</string>
+    <string name="linear_layout_vertical">Linear Layout Vertical</string>
+</resources>
