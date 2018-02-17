@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 findViewById(R.id.list_view);
         Button myGridLayout = (Button)
                 findViewById(R.id.grid_view);
+        Button myConstraintLayout = (Button)
+                findViewById(R.id.constraint_layout);
 
         myLinearLayoutHorizontal.setOnClickListener(this);
         myLinearLayoutVertical.setOnClickListener(this);
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         myFrameLayout.setOnClickListener(this);
         myListViewLayout.setOnClickListener(this);
         myGridLayout.setOnClickListener(this);
+        myConstraintLayout.setOnClickListener(this);
     }
     @Override
     public void onClick(View view) {
@@ -83,6 +86,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d("MainActivity", "Vertical clicked");
                 Intent intent7 = new Intent(this, Grid_View.class);
                 startActivity(intent7);
+                break;
+
+            case R.id.constraint_layout:
+                Log.d("MainActivity", "Vertical clicked");
+                Intent intent8 = new Intent(this, ConstraintLayoutActivity.class);
+                startActivity(intent8);
                 break;
 
             default:

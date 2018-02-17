@@ -24,7 +24,8 @@
         <activity android:name=".tableLayout" />
         <activity android:name=".Frame_Layout" />
         <activity android:name=".List_View_Activity" />
-        <activity android:name=".Grid_View"></activity>
+        <activity android:name=".Grid_View" />
+        <activity android:name=".ConstraintLayoutActivity"></activity>
     </application>
 
 </manifest>
